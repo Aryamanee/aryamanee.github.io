@@ -116,7 +116,7 @@ gdjs.StartScreenCode.userFunc0x7a3a98(runtimeScene);
 };gdjs.StartScreenCode.userFunc0x71fee8 = function(runtimeScene) {
 "use strict";
 runtimeScene.team = "";
-runtimeScene.ws = new WebSocket("ws://4asmp.ml:8000/ws");
+runtimeScene.ws = new WebSocket("wss://4asmp.ml:8000/ws");
 };
 gdjs.StartScreenCode.eventsList4 = function(runtimeScene) {
 
