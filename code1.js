@@ -91,7 +91,7 @@ gdjs.GameCode.condition4IsTrue_0 = {val:false};
 
 gdjs.GameCode.userFunc0x6ded70 = function(runtimeScene) {
 "use strict";
-runtimeScene.ws = new WebSocket("ws://4asmp.ml:8000/ws");
+runtimeScene.ws = new WebSocket("wss://4asmp.ml:8000/ws");
 runtimeScene.pos = 0
 const teamvarbox = runtimeScene.getObjects("team")[0]
 runtimeScene.team = teamvarbox.getString()
